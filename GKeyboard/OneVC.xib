@@ -110,14 +110,22 @@
                     <rect key="frame" x="258" y="8" width="109" height="30"/>
                     <state key="normal" title="Share Keyboard"/>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9kL-Mg-axB">
+                    <rect key="frame" x="0.0" y="168" width="562" height="52"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="uQQ-i8-wb4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="38" id="31U-Bf-FKF"/>
                 <constraint firstAttribute="trailing" secondItem="uQQ-i8-wb4" secondAttribute="trailing" constant="-659" id="6VP-7g-CJY"/>
                 <constraint firstAttribute="trailing" secondItem="uQQ-i8-wb4" secondAttribute="trailing" constant="-538" id="6jy-gB-6Or"/>
+                <constraint firstItem="9kL-Mg-axB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7YR-UH-HfE"/>
                 <constraint firstItem="uQQ-i8-wb4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="B7b-ls-1p8"/>
+                <constraint firstAttribute="trailing" secondItem="9kL-Mg-axB" secondAttribute="trailing" id="E8S-uS-yc4"/>
+                <constraint firstItem="9kL-Mg-axB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="168" id="Ibk-UL-LPX"/>
                 <constraint firstAttribute="bottom" secondItem="uQQ-i8-wb4" secondAttribute="bottom" constant="46" id="Imq-qd-TNd"/>
+                <constraint firstAttribute="bottom" secondItem="9kL-Mg-axB" secondAttribute="bottom" id="Q17-xX-D8m"/>
                 <constraint firstItem="uQQ-i8-wb4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="38" id="a7P-Tl-xpQ"/>
                 <constraint firstAttribute="bottom" secondItem="uQQ-i8-wb4" secondAttribute="bottom" constant="46" id="fZ0-Mf-iOh"/>
                 <constraint firstItem="uQQ-i8-wb4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ixS-U1-jAr"/>

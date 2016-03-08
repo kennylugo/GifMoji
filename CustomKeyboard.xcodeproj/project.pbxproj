@@ -47,7 +47,6 @@
 		2540F0E21C8EF9D000F3582A /* solocup-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0CD1C8EF9D000F3582A /* solocup-utility.gif */; };
 		2540F0E31C8EF9D000F3582A /* sunglasses-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0CE1C8EF9D000F3582A /* sunglasses-utility.gif */; };
 		2540F0E41C8EF9D000F3582A /* taco-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0CF1C8EF9D000F3582A /* taco-food.gif */; };
-		2541D76A1C8E92D20063558D /* gifs in Resources */ = {isa = PBXBuildFile; fileRef = 2541D7691C8E92D20063558D /* gifs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,7 +117,6 @@
 		2540F0CD1C8EF9D000F3582A /* solocup-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "solocup-utility.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/solocup-utility.gif"; sourceTree = "<group>"; };
 		2540F0CE1C8EF9D000F3582A /* sunglasses-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "sunglasses-utility.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/sunglasses-utility.gif"; sourceTree = "<group>"; };
 		2540F0CF1C8EF9D000F3582A /* taco-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "taco-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/taco-food.gif"; sourceTree = "<group>"; };
-		2541D7691C8E92D20063558D /* gifs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = gifs; path = ../../gifs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +162,6 @@
 				2540F0541C8DF74100F3582A /* ViewController.swift */,
 				2540F0561C8DF74100F3582A /* Main.storyboard */,
 				2540F0591C8DF74100F3582A /* Assets.xcassets */,
-				2541D7691C8E92D20063558D /* gifs */,
 				2540F05B1C8DF74100F3582A /* LaunchScreen.storyboard */,
 				2540F05E1C8DF74100F3582A /* Info.plist */,
 			);
@@ -305,7 +302,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2540F05D1C8DF74100F3582A /* LaunchScreen.storyboard in Resources */,
-				2541D76A1C8E92D20063558D /* gifs in Resources */,
 				2540F05A1C8DF74100F3582A /* Assets.xcassets in Resources */,
 				2540F0581C8DF74100F3582A /* Main.storyboard in Resources */,
 			);

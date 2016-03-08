@@ -41,6 +41,9 @@ class KeyboardViewController: UIInputViewController {
         
         
         
+        let viewcontroller = UIViewController(nibName: "OneVC", bundle: nil)
+        viewcontroller.view.backgroundColor = UIColor.whiteColor()
+        self.presentViewController(viewcontroller, animated: true, completion: nil)
         
         
         
@@ -49,41 +52,41 @@ class KeyboardViewController: UIInputViewController {
         
         
         
-        
-        let tabBarController = UITabBarController()
-        
-        let myVC1 = OneVC(nibName: "OneVC", bundle: nil)
-        let myVC2 = TwoVC(nibName: "TwoVC", bundle: nil)
-        let myVC3 = ThreeVC(nibName: "ThreeVC", bundle: nil)
-        let myVC4 = FourVC(nibName: "FourVC", bundle: nil)
-        let myVC5 = FiveVC(nibName: "FiveVC", bundle: nil)
-        let myVC6 = SixVC(nibName: "SixVC", bundle: nil)
-        
-        
-        
-        let controllers = [myVC1,myVC2, myVC3,myVC4,myVC5,myVC6]
-        
-        tabBarController.viewControllers = controllers
-        
-        
-        
-        let firstImage = UIImage(named: "pie bar icon")
-        let secondImage = UIImage(named: "pizza bar icon")
-        
-        myVC1.tabBarItem = UITabBarItem(title: "Pie",image: firstImage,tag: 1)
-        
-        myVC2.tabBarItem = UITabBarItem(title: "Pizza",image: secondImage,tag:2)
-        
-        myVC3.tabBarItem = UITabBarItem(title: "Three", image: secondImage, tag: 3)
-        
-        myVC4.tabBarItem = UITabBarItem(title: "Three", image: secondImage, tag: 3)
-        
-        myVC5.tabBarItem = UITabBarItem(title: "Three", image: secondImage, tag: 3)
-        
-        myVC6.tabBarItem = UITabBarItem(title: "Three", image: secondImage, tag: 3)
-        
-        self.presentViewController(tabBarController, animated: true, completion: nil)
+//        let tabBarController = UITabBarController()
+//        
+//        let myVC1 = OneVC(nibName: "OneVC", bundle: nil)
+//        let myVC2 = TwoVC(nibName: "TwoVC", bundle: nil)
+//        let myVC3 = ThreeVC(nibName: "ThreeVC", bundle: nil)
+//        let myVC4 = FourVC(nibName: "FourVC", bundle: nil)
+//        let myVC5 = FiveVC(nibName: "FiveVC", bundle: nil)
+//        let myVC6 = SixVC(nibName: "SixVC", bundle: nil)
+//        
+//        
+//        
+//        let controllers = [myVC1,myVC2, myVC3,myVC4,myVC5,myVC6]
+//        
+//        tabBarController.viewControllers = controllers
+//        
+//        
+//        
+//        let firstImage = UIImage(named: "pie bar icon")
+//        let secondImage = UIImage(named: "pizza bar icon")
+//        
+//        myVC1.tabBarItem = UITabBarItem(title: "Pie",image: firstImage,tag: 1)
+//        
+//        myVC2.tabBarItem = UITabBarItem(title: "Pizza",image: secondImage,tag:2)
+//        
+//        myVC3.tabBarItem = UITabBarItem(title: "Three", image: secondImage, tag: 3)
+//        
+//        myVC4.tabBarItem = UITabBarItem(title: "Three", image: secondImage, tag: 3)
+//        
+//        myVC5.tabBarItem = UITabBarItem(title: "Three", image: secondImage, tag: 3)
+//        
+//        myVC6.tabBarItem = UITabBarItem(title: "Three", image: secondImage, tag: 3)
+//        
+//        self.presentViewController(tabBarController, animated: true, completion: nil)
 
+        
             }
     
     
