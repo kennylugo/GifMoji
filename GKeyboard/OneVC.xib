@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OneVC" customModule="GKeyboard" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="562" height="220"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uQQ-i8-wb4">
+                    <rect key="frame" x="0.0" y="38" width="1100" height="136"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPW-RR-96J">
+                            <rect key="frame" x="808" y="57" width="30" height="30"/>
+                            <color key="backgroundColor" red="0.2229770365" green="0.36838588249999998" blue="0.91755445079999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="blue"/>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="booty-people.gif" translatesAutoresizingMaskIntoConstraints="NO" id="0JA-Ic-Dkv">
+                            <rect key="frame" x="39" y="7" width="33" height="33"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly-animals.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Ej9-vj-1th">
+                            <rect key="frame" x="90" y="0.0" width="40" height="40"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunglasses-utility.gif" translatesAutoresizingMaskIntoConstraints="NO" id="v4w-CI-iwi">
+                            <rect key="frame" x="203" y="0.0" width="40" height="40"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frenchpress-food.gif" translatesAutoresizingMaskIntoConstraints="NO" id="ZMf-Ro-Oal">
+                            <rect key="frame" x="251" y="0.0" width="40" height="40"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scissors-utility.gif" translatesAutoresizingMaskIntoConstraints="NO" id="V1w-ew-CXh">
+                            <rect key="frame" x="305" y="0.0" width="40" height="40"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flipflops-utility.gif" translatesAutoresizingMaskIntoConstraints="NO" id="iY0-76-rSK">
+                            <rect key="frame" x="149" y="0.0" width="40" height="40"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taco-food.gif" translatesAutoresizingMaskIntoConstraints="NO" id="guY-Us-PkL">
+                            <rect key="frame" x="39" y="48" width="33" height="32"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="solocup-utility.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Sgw-1X-ism">
+                            <rect key="frame" x="90" y="40" width="40" height="40"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cortado-food.gif" translatesAutoresizingMaskIntoConstraints="NO" id="sqP-Iy-gCl">
+                            <rect key="frame" x="206" y="44" width="35" height="31"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nutella-food.gif" translatesAutoresizingMaskIntoConstraints="NO" id="iHZ-NZ-hx8">
+                            <rect key="frame" x="256" y="48" width="31" height="32"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="goldfish-food.gif" translatesAutoresizingMaskIntoConstraints="NO" id="147-qG-3rx">
+                            <rect key="frame" x="313" y="48" width="32" height="32"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly-animals.gif" translatesAutoresizingMaskIntoConstraints="NO" id="9r2-4a-Csa">
+                            <rect key="frame" x="149" y="40" width="40" height="40"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bacon-food.gif" translatesAutoresizingMaskIntoConstraints="NO" id="07D-5n-CFC">
+                            <rect key="frame" x="32" y="80" width="40" height="40"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="booty-people.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Frb-Eh-dfG">
+                            <rect key="frame" x="97" y="88" width="33" height="32"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="froyo-food.gif" translatesAutoresizingMaskIntoConstraints="NO" id="azG-kI-kb3">
+                            <rect key="frame" x="203" y="75" width="40" height="40"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gunvald-animals.gif" translatesAutoresizingMaskIntoConstraints="NO" id="kX3-TE-u7Y">
+                            <rect key="frame" x="256" y="90" width="29" height="27"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cheeseballs-food.gif" translatesAutoresizingMaskIntoConstraints="NO" id="LKe-M7-0tY">
+                            <rect key="frame" x="313" y="88" width="32" height="32"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="makeitrain-utility.gif" translatesAutoresizingMaskIntoConstraints="NO" id="uAV-uq-lUV">
+                            <rect key="frame" x="157" y="88" width="32" height="32"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="oPW-RR-96J" firstAttribute="centerY" secondItem="uQQ-i8-wb4" secondAttribute="centerY" constant="4" id="Qqw-kd-PAy"/>
+                        <constraint firstItem="oPW-RR-96J" firstAttribute="leading" secondItem="uQQ-i8-wb4" secondAttribute="leading" constant="808" id="d9x-6h-pak"/>
+                        <constraint firstAttribute="bottom" secondItem="oPW-RR-96J" secondAttribute="bottom" constant="49" id="lFy-Wh-IFP"/>
+                        <constraint firstAttribute="trailing" secondItem="oPW-RR-96J" secondAttribute="trailing" constant="196" id="oor-4j-8HF"/>
+                    </constraints>
+                </scrollView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Paste Size : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHU-Rs-Y37">
+                    <rect key="frame" x="8" y="12" width="93" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwS-4B-zof">
+                    <rect key="frame" x="109" y="8" width="30" height="30"/>
+                    <state key="normal" title="Big"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IN6-kB-OmN">
+                    <rect key="frame" x="147" y="8" width="41" height="30"/>
+                    <state key="normal" title="Teeny"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="l" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrQ-bC-pv2">
+                    <rect key="frame" x="141" y="15" width="4" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3H1-sQ-Kk7">
+                    <rect key="frame" x="258" y="8" width="109" height="30"/>
+                    <state key="normal" title="Share Keyboard"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uQQ-i8-wb4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="38" id="31U-Bf-FKF"/>
+                <constraint firstAttribute="trailing" secondItem="uQQ-i8-wb4" secondAttribute="trailing" constant="-659" id="6VP-7g-CJY"/>
+                <constraint firstAttribute="trailing" secondItem="uQQ-i8-wb4" secondAttribute="trailing" constant="-538" id="6jy-gB-6Or"/>
+                <constraint firstItem="uQQ-i8-wb4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="B7b-ls-1p8"/>
+                <constraint firstAttribute="bottom" secondItem="uQQ-i8-wb4" secondAttribute="bottom" constant="46" id="Imq-qd-TNd"/>
+                <constraint firstItem="uQQ-i8-wb4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="38" id="a7P-Tl-xpQ"/>
+                <constraint firstAttribute="bottom" secondItem="uQQ-i8-wb4" secondAttribute="bottom" constant="46" id="fZ0-Mf-iOh"/>
+                <constraint firstItem="uQQ-i8-wb4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ixS-U1-jAr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="31U-Bf-FKF"/>
+                    <exclude reference="6VP-7g-CJY"/>
+                    <exclude reference="B7b-ls-1p8"/>
+                    <exclude reference="fZ0-Mf-iOh"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="794" y="266"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bacon-food.gif" width="80" height="80"/>
+        <image name="booty-people.gif" width="80" height="80"/>
+        <image name="butterfly-animals.gif" width="80" height="80"/>
+        <image name="cheeseballs-food.gif" width="80" height="80"/>
+        <image name="cortado-food.gif" width="80" height="80"/>
+        <image name="flipflops-utility.gif" width="80" height="80"/>
+        <image name="frenchpress-food.gif" width="80" height="80"/>
+        <image name="froyo-food.gif" width="80" height="80"/>
+        <image name="goldfish-food.gif" width="80" height="80"/>
+        <image name="gunvald-animals.gif" width="80" height="80"/>
+        <image name="makeitrain-utility.gif" width="80" height="80"/>
+        <image name="nutella-food.gif" width="80" height="80"/>
+        <image name="scissors-utility.gif" width="80" height="80"/>
+        <image name="solocup-utility.gif" width="80" height="80"/>
+        <image name="sunglasses-utility.gif" width="80" height="80"/>
+        <image name="taco-food.gif" width="80" height="80"/>
+    </resources>
+</document>

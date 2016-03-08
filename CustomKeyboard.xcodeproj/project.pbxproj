@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2540F0531C8DF74100F3582A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2540F0521C8DF74100F3582A /* AppDelegate.swift */; };
+		2540F0551C8DF74100F3582A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2540F0541C8DF74100F3582A /* ViewController.swift */; };
+		2540F0581C8DF74100F3582A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0561C8DF74100F3582A /* Main.storyboard */; };
+		2540F05A1C8DF74100F3582A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0591C8DF74100F3582A /* Assets.xcassets */; };
+		2540F05D1C8DF74100F3582A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2540F05B1C8DF74100F3582A /* LaunchScreen.storyboard */; };
+		2540F06B1C8DF78100F3582A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2540F06A1C8DF78100F3582A /* KeyboardViewController.swift */; };
+		2540F06F1C8DF78100F3582A /* GKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2540F0681C8DF78100F3582A /* GKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2540F0781C8DFA2A00F3582A /* OneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2540F0761C8DFA2A00F3582A /* OneVC.swift */; };
+		2540F0791C8DFA2A00F3582A /* OneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0771C8DFA2A00F3582A /* OneVC.xib */; };
+		2540F07E1C8DFA5800F3582A /* TwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2540F07C1C8DFA5800F3582A /* TwoVC.swift */; };
+		2540F07F1C8DFA5800F3582A /* TwoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2540F07D1C8DFA5800F3582A /* TwoVC.xib */; };
+		2540F0821C8E04A000F3582A /* ThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2540F0801C8E04A000F3582A /* ThreeVC.swift */; };
+		2540F0831C8E04A000F3582A /* ThreeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0811C8E04A000F3582A /* ThreeVC.xib */; };
+		2540F0861C8E04E400F3582A /* FiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2540F0841C8E04E400F3582A /* FiveVC.swift */; };
+		2540F0871C8E04E400F3582A /* FiveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0851C8E04E400F3582A /* FiveVC.xib */; };
+		2540F08A1C8E04F900F3582A /* SixVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2540F0881C8E04F900F3582A /* SixVC.swift */; };
+		2540F08B1C8E04F900F3582A /* SixVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0891C8E04F900F3582A /* SixVC.xib */; };
+		2540F08E1C8E056500F3582A /* FourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2540F08C1C8E056500F3582A /* FourVC.swift */; };
+		2540F08F1C8E056500F3582A /* FourVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2540F08D1C8E056500F3582A /* FourVC.xib */; };
+		2540F0A61C8E06A600F3582A /* bacon-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0911C8E06A600F3582A /* bacon-food.gif */; };
+		2540F0A71C8E06A600F3582A /* booty-people.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0921C8E06A600F3582A /* booty-people.gif */; };
+		2540F0A81C8E06A600F3582A /* butterfly-animals.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0931C8E06A600F3582A /* butterfly-animals.gif */; };
+		2540F0A91C8E06A600F3582A /* cheeseballs-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0941C8E06A600F3582A /* cheeseballs-food.gif */; };
+		2540F0AA1C8E06A600F3582A /* cheezit-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0951C8E06A600F3582A /* cheezit-food.gif */; };
+		2540F0AB1C8E06A600F3582A /* cortado-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0961C8E06A600F3582A /* cortado-food.gif */; };
+		2540F0AC1C8E06A600F3582A /* flipflops-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0971C8E06A600F3582A /* flipflops-utility.gif */; };
+		2540F0AD1C8E06A600F3582A /* frenchpress-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0981C8E06A600F3582A /* frenchpress-food.gif */; };
+		2540F0AE1C8E06A600F3582A /* froyo-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0991C8E06A600F3582A /* froyo-food.gif */; };
+		2540F0AF1C8E06A600F3582A /* taco-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F09A1C8E06A600F3582A /* taco-food.gif */; };
+		2540F0B01C8E06A600F3582A /* goldfish-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F09B1C8E06A600F3582A /* goldfish-food.gif */; };
+		2540F0B11C8E06A600F3582A /* gunvald-animals.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F09C1C8E06A600F3582A /* gunvald-animals.gif */; };
+		2540F0B21C8E06A600F3582A /* icedcoffee-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F09D1C8E06A600F3582A /* icedcoffee-food.gif */; };
+		2540F0B31C8E06A600F3582A /* iphone-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F09E1C8E06A600F3582A /* iphone-utility.gif */; };
+		2540F0B41C8E06A600F3582A /* macaroons-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F09F1C8E06A600F3582A /* macaroons-food.gif */; };
+		2540F0B51C8E06A600F3582A /* makeitrain-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0A01C8E06A600F3582A /* makeitrain-utility.gif */; };
+		2540F0B61C8E06A600F3582A /* nutella-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0A11C8E06A600F3582A /* nutella-food.gif */; };
+		2540F0B71C8E06A600F3582A /* popcorn-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0A21C8E06A600F3582A /* popcorn-food.gif */; };
+		2540F0B81C8E06A600F3582A /* scissors-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0A31C8E06A600F3582A /* scissors-utility.gif */; };
+		2540F0B91C8E06A600F3582A /* solocup-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0A41C8E06A600F3582A /* solocup-utility.gif */; };
+		2540F0BA1C8E06A600F3582A /* sunglasses-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0A51C8E06A600F3582A /* sunglasses-utility.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2540F06D1C8DF78100F3582A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2540F0471C8DF74100F3582A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2540F0671C8DF78100F3582A;
+			remoteInfo = GKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2540F0731C8DF78100F3582A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2540F06F1C8DF78100F3582A /* GKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2540F04F1C8DF74100F3582A /* CustomKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2540F0521C8DF74100F3582A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2540F0541C8DF74100F3582A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2540F0571C8DF74100F3582A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2540F0591C8DF74100F3582A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2540F05C1C8DF74100F3582A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2540F05E1C8DF74100F3582A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2540F0681C8DF78100F3582A /* GKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2540F06A1C8DF78100F3582A /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		2540F06C1C8DF78100F3582A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2540F0761C8DFA2A00F3582A /* OneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneVC.swift; sourceTree = "<group>"; };
+		2540F0771C8DFA2A00F3582A /* OneVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneVC.xib; sourceTree = "<group>"; };
+		2540F07C1C8DFA5800F3582A /* TwoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoVC.swift; sourceTree = "<group>"; };
+		2540F07D1C8DFA5800F3582A /* TwoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoVC.xib; sourceTree = "<group>"; };
+		2540F0801C8E04A000F3582A /* ThreeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeVC.swift; sourceTree = "<group>"; };
+		2540F0811C8E04A000F3582A /* ThreeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeVC.xib; sourceTree = "<group>"; };
+		2540F0841C8E04E400F3582A /* FiveVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveVC.swift; sourceTree = "<group>"; };
+		2540F0851C8E04E400F3582A /* FiveVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FiveVC.xib; sourceTree = "<group>"; };
+		2540F0881C8E04F900F3582A /* SixVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixVC.swift; sourceTree = "<group>"; };
+		2540F0891C8E04F900F3582A /* SixVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixVC.xib; sourceTree = "<group>"; };
+		2540F08C1C8E056500F3582A /* FourVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourVC.swift; sourceTree = "<group>"; };
+		2540F08D1C8E056500F3582A /* FourVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourVC.xib; sourceTree = "<group>"; };
+		2540F0911C8E06A600F3582A /* bacon-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "bacon-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/bacon-food.gif"; sourceTree = "<group>"; };
+		2540F0921C8E06A600F3582A /* booty-people.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "booty-people.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/booty-people.gif"; sourceTree = "<group>"; };
+		2540F0931C8E06A600F3582A /* butterfly-animals.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "butterfly-animals.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/butterfly-animals.gif"; sourceTree = "<group>"; };
+		2540F0941C8E06A600F3582A /* cheeseballs-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "cheeseballs-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/cheeseballs-food.gif"; sourceTree = "<group>"; };
+		2540F0951C8E06A600F3582A /* cheezit-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "cheezit-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/cheezit-food.gif"; sourceTree = "<group>"; };
+		2540F0961C8E06A600F3582A /* cortado-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "cortado-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/cortado-food.gif"; sourceTree = "<group>"; };
+		2540F0971C8E06A600F3582A /* flipflops-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "flipflops-utility.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/flipflops-utility.gif"; sourceTree = "<group>"; };
+		2540F0981C8E06A600F3582A /* frenchpress-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "frenchpress-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/frenchpress-food.gif"; sourceTree = "<group>"; };
+		2540F0991C8E06A600F3582A /* froyo-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "froyo-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/froyo-food.gif"; sourceTree = "<group>"; };
+		2540F09A1C8E06A600F3582A /* taco-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "taco-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/taco-food.gif"; sourceTree = "<group>"; };
+		2540F09B1C8E06A600F3582A /* goldfish-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "goldfish-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/goldfish-food.gif"; sourceTree = "<group>"; };
+		2540F09C1C8E06A600F3582A /* gunvald-animals.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "gunvald-animals.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/gunvald-animals.gif"; sourceTree = "<group>"; };
+		2540F09D1C8E06A600F3582A /* icedcoffee-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "icedcoffee-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/icedcoffee-food.gif"; sourceTree = "<group>"; };
+		2540F09E1C8E06A600F3582A /* iphone-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "iphone-utility.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/iphone-utility.gif"; sourceTree = "<group>"; };
+		2540F09F1C8E06A600F3582A /* macaroons-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "macaroons-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/macaroons-food.gif"; sourceTree = "<group>"; };
+		2540F0A01C8E06A600F3582A /* makeitrain-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "makeitrain-utility.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/makeitrain-utility.gif"; sourceTree = "<group>"; };
+		2540F0A11C8E06A600F3582A /* nutella-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "nutella-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/nutella-food.gif"; sourceTree = "<group>"; };
+		2540F0A21C8E06A600F3582A /* popcorn-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "popcorn-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/popcorn-food.gif"; sourceTree = "<group>"; };
+		2540F0A31C8E06A600F3582A /* scissors-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "scissors-utility.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/scissors-utility.gif"; sourceTree = "<group>"; };
+		2540F0A41C8E06A600F3582A /* solocup-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "solocup-utility.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/solocup-utility.gif"; sourceTree = "<group>"; };
+		2540F0A51C8E06A600F3582A /* sunglasses-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "sunglasses-utility.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/sunglasses-utility.gif"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2540F04C1C8DF74100F3582A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2540F0651C8DF78100F3582A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2540F0461C8DF74100F3582A = {
+			isa = PBXGroup;
+			children = (
+				2540F0511C8DF74100F3582A /* CustomKeyboard */,
+				2540F0691C8DF78100F3582A /* GKeyboard */,
+				2540F0501C8DF74100F3582A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2540F0501C8DF74100F3582A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2540F04F1C8DF74100F3582A /* CustomKeyboard.app */,
+				2540F0681C8DF78100F3582A /* GKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2540F0511C8DF74100F3582A /* CustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2540F0521C8DF74100F3582A /* AppDelegate.swift */,
+				2540F0541C8DF74100F3582A /* ViewController.swift */,
+				2540F0561C8DF74100F3582A /* Main.storyboard */,
+				2540F0591C8DF74100F3582A /* Assets.xcassets */,
+				2540F05B1C8DF74100F3582A /* LaunchScreen.storyboard */,
+				2540F05E1C8DF74100F3582A /* Info.plist */,
+			);
+			path = CustomKeyboard;
+			sourceTree = "<group>";
+		};
+		2540F0691C8DF78100F3582A /* GKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2540F0901C8E069600F3582A /* Images */,
+				2540F06A1C8DF78100F3582A /* KeyboardViewController.swift */,
+				2540F0761C8DFA2A00F3582A /* OneVC.swift */,
+				2540F0771C8DFA2A00F3582A /* OneVC.xib */,
+				2540F07C1C8DFA5800F3582A /* TwoVC.swift */,
+				2540F07D1C8DFA5800F3582A /* TwoVC.xib */,
+				2540F0801C8E04A000F3582A /* ThreeVC.swift */,
+				2540F08C1C8E056500F3582A /* FourVC.swift */,
+				2540F08D1C8E056500F3582A /* FourVC.xib */,
+				2540F0811C8E04A000F3582A /* ThreeVC.xib */,
+				2540F0841C8E04E400F3582A /* FiveVC.swift */,
+				2540F0851C8E04E400F3582A /* FiveVC.xib */,
+				2540F0881C8E04F900F3582A /* SixVC.swift */,
+				2540F0891C8E04F900F3582A /* SixVC.xib */,
+				2540F06C1C8DF78100F3582A /* Info.plist */,
+			);
+			path = GKeyboard;
+			sourceTree = "<group>";
+		};
+		2540F0901C8E069600F3582A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2540F0911C8E06A600F3582A /* bacon-food.gif */,
+				2540F0921C8E06A600F3582A /* booty-people.gif */,
+				2540F0931C8E06A600F3582A /* butterfly-animals.gif */,
+				2540F0941C8E06A600F3582A /* cheeseballs-food.gif */,
+				2540F0951C8E06A600F3582A /* cheezit-food.gif */,
+				2540F0961C8E06A600F3582A /* cortado-food.gif */,
+				2540F0971C8E06A600F3582A /* flipflops-utility.gif */,
+				2540F0981C8E06A600F3582A /* frenchpress-food.gif */,
+				2540F0991C8E06A600F3582A /* froyo-food.gif */,
+				2540F09A1C8E06A600F3582A /* taco-food.gif */,
+				2540F09B1C8E06A600F3582A /* goldfish-food.gif */,
+				2540F09C1C8E06A600F3582A /* gunvald-animals.gif */,
+				2540F09D1C8E06A600F3582A /* icedcoffee-food.gif */,
+				2540F09E1C8E06A600F3582A /* iphone-utility.gif */,
+				2540F09F1C8E06A600F3582A /* macaroons-food.gif */,
+				2540F0A01C8E06A600F3582A /* makeitrain-utility.gif */,
+				2540F0A11C8E06A600F3582A /* nutella-food.gif */,
+				2540F0A21C8E06A600F3582A /* popcorn-food.gif */,
+				2540F0A31C8E06A600F3582A /* scissors-utility.gif */,
+				2540F0A41C8E06A600F3582A /* solocup-utility.gif */,
+				2540F0A51C8E06A600F3582A /* sunglasses-utility.gif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2540F04E1C8DF74100F3582A /* CustomKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2540F0611C8DF74100F3582A /* Build configuration list for PBXNativeTarget "CustomKeyboard" */;
+			buildPhases = (
+				2540F04B1C8DF74100F3582A /* Sources */,
+				2540F04C1C8DF74100F3582A /* Frameworks */,
+				2540F04D1C8DF74100F3582A /* Resources */,
+				2540F0731C8DF78100F3582A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2540F06E1C8DF78100F3582A /* PBXTargetDependency */,
+			);
+			name = CustomKeyboard;
+			productName = CustomKeyboard;
+			productReference = 2540F04F1C8DF74100F3582A /* CustomKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2540F0671C8DF78100F3582A /* GKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2540F0701C8DF78100F3582A /* Build configuration list for PBXNativeTarget "GKeyboard" */;
+			buildPhases = (
+				2540F0641C8DF78100F3582A /* Sources */,
+				2540F0651C8DF78100F3582A /* Frameworks */,
+				2540F0661C8DF78100F3582A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKeyboard;
+			productName = GKeyboard;
+			productReference = 2540F0681C8DF78100F3582A /* GKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2540F0471C8DF74100F3582A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kenny Batista";
+				TargetAttributes = {
+					2540F04E1C8DF74100F3582A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RL292UUN9S;
+					};
+					2540F0671C8DF78100F3582A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RL292UUN9S;
+					};
+				};
+			};
+			buildConfigurationList = 2540F04A1C8DF74100F3582A /* Build configuration list for PBXProject "CustomKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2540F0461C8DF74100F3582A;
+			productRefGroup = 2540F0501C8DF74100F3582A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2540F04E1C8DF74100F3582A /* CustomKeyboard */,
+				2540F0671C8DF78100F3582A /* GKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2540F04D1C8DF74100F3582A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2540F05D1C8DF74100F3582A /* LaunchScreen.storyboard in Resources */,
+				2540F05A1C8DF74100F3582A /* Assets.xcassets in Resources */,
+				2540F0581C8DF74100F3582A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2540F0661C8DF78100F3582A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2540F0A91C8E06A600F3582A /* cheeseballs-food.gif in Resources */,
+				2540F0791C8DFA2A00F3582A /* OneVC.xib in Resources */,
+				2540F0B71C8E06A600F3582A /* popcorn-food.gif in Resources */,
+				2540F07F1C8DFA5800F3582A /* TwoVC.xib in Resources */,
+				2540F0AA1C8E06A600F3582A /* cheezit-food.gif in Resources */,
+				2540F08F1C8E056500F3582A /* FourVC.xib in Resources */,
+				2540F0AB1C8E06A600F3582A /* cortado-food.gif in Resources */,
+				2540F0B51C8E06A600F3582A /* makeitrain-utility.gif in Resources */,
+				2540F0B61C8E06A600F3582A /* nutella-food.gif in Resources */,
+				2540F0AC1C8E06A600F3582A /* flipflops-utility.gif in Resources */,
+				2540F0A81C8E06A600F3582A /* butterfly-animals.gif in Resources */,
+				2540F0B01C8E06A600F3582A /* goldfish-food.gif in Resources */,
+				2540F0AE1C8E06A600F3582A /* froyo-food.gif in Resources */,
+				2540F0B11C8E06A600F3582A /* gunvald-animals.gif in Resources */,
+				2540F0B41C8E06A600F3582A /* macaroons-food.gif in Resources */,
+				2540F0B91C8E06A600F3582A /* solocup-utility.gif in Resources */,
+				2540F0A71C8E06A600F3582A /* booty-people.gif in Resources */,
+				2540F0BA1C8E06A600F3582A /* sunglasses-utility.gif in Resources */,
+				2540F0871C8E04E400F3582A /* FiveVC.xib in Resources */,
+				2540F0B21C8E06A600F3582A /* icedcoffee-food.gif in Resources */,
+				2540F0A61C8E06A600F3582A /* bacon-food.gif in Resources */,
+				2540F08B1C8E04F900F3582A /* SixVC.xib in Resources */,
+				2540F0AF1C8E06A600F3582A /* taco-food.gif in Resources */,
+				2540F0AD1C8E06A600F3582A /* frenchpress-food.gif in Resources */,
+				2540F0B31C8E06A600F3582A /* iphone-utility.gif in Resources */,
+				2540F0B81C8E06A600F3582A /* scissors-utility.gif in Resources */,
+				2540F0831C8E04A000F3582A /* ThreeVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2540F04B1C8DF74100F3582A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2540F0551C8DF74100F3582A /* ViewController.swift in Sources */,
+				2540F0531C8DF74100F3582A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2540F0641C8DF78100F3582A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2540F0861C8E04E400F3582A /* FiveVC.swift in Sources */,
+				2540F06B1C8DF78100F3582A /* KeyboardViewController.swift in Sources */,
+				2540F0821C8E04A000F3582A /* ThreeVC.swift in Sources */,
+				2540F08E1C8E056500F3582A /* FourVC.swift in Sources */,
+				2540F08A1C8E04F900F3582A /* SixVC.swift in Sources */,
+				2540F07E1C8DFA5800F3582A /* TwoVC.swift in Sources */,
+				2540F0781C8DFA2A00F3582A /* OneVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2540F06E1C8DF78100F3582A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2540F0671C8DF78100F3582A /* GKeyboard */;
+			targetProxy = 2540F06D1C8DF78100F3582A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2540F0561C8DF74100F3582A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2540F0571C8DF74100F3582A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2540F05B1C8DF74100F3582A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2540F05C1C8DF74100F3582A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2540F05F1C8DF74100F3582A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2540F0601C8DF74100F3582A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2540F0621C8DF74100F3582A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennybatista.CustomKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2540F0631C8DF74100F3582A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennybatista.CustomKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2540F0711C8DF78100F3582A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennybatista.CustomKeyboard.GKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2540F0721C8DF78100F3582A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennybatista.CustomKeyboard.GKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2540F04A1C8DF74100F3582A /* Build configuration list for PBXProject "CustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2540F05F1C8DF74100F3582A /* Debug */,
+				2540F0601C8DF74100F3582A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2540F0611C8DF74100F3582A /* Build configuration list for PBXNativeTarget "CustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2540F0621C8DF74100F3582A /* Debug */,
+				2540F0631C8DF74100F3582A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2540F0701C8DF78100F3582A /* Build configuration list for PBXNativeTarget "GKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2540F0711C8DF78100F3582A /* Debug */,
+				2540F0721C8DF78100F3582A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2540F0471C8DF74100F3582A /* Project object */;
+}
