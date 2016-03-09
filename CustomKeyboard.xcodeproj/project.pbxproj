@@ -47,6 +47,11 @@
 		2540F0E21C8EF9D000F3582A /* solocup-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0CD1C8EF9D000F3582A /* solocup-utility.gif */; };
 		2540F0E31C8EF9D000F3582A /* sunglasses-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0CE1C8EF9D000F3582A /* sunglasses-utility.gif */; };
 		2540F0E41C8EF9D000F3582A /* taco-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0CF1C8EF9D000F3582A /* taco-food.gif */; };
+		2540F0EA1C8F554F00F3582A /* Hearts-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0E81C8F554F00F3582A /* Hearts-50.png */; };
+		2540F0EB1C8F554F00F3582A /* Globe-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0E91C8F554F00F3582A /* Globe-48.png */; };
+		2540F0EF1C8F561200F3582A /* Human Head-52.png in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0EC1C8F561200F3582A /* Human Head-52.png */; };
+		2540F0F01C8F561200F3582A /* Briefcase-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0ED1C8F561200F3582A /* Briefcase-48.png */; };
+		2540F0F11C8F561200F3582A /* Cup Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2540F0EE1C8F561200F3582A /* Cup Filled-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +122,11 @@
 		2540F0CD1C8EF9D000F3582A /* solocup-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "solocup-utility.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/solocup-utility.gif"; sourceTree = "<group>"; };
 		2540F0CE1C8EF9D000F3582A /* sunglasses-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "sunglasses-utility.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/sunglasses-utility.gif"; sourceTree = "<group>"; };
 		2540F0CF1C8EF9D000F3582A /* taco-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "taco-food.gif"; path = "../../../Downloads/PyI7RvnRavZswZFCDMsn-master/Gifmoji/GifmojiKeyboard/taco-food.gif"; sourceTree = "<group>"; };
+		2540F0E81C8F554F00F3582A /* Hearts-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hearts-50.png"; path = "../../../Downloads/Hearts-50.png"; sourceTree = "<group>"; };
+		2540F0E91C8F554F00F3582A /* Globe-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Globe-48.png"; path = "../../../Downloads/Globe-48.png"; sourceTree = "<group>"; };
+		2540F0EC1C8F561200F3582A /* Human Head-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Human Head-52.png"; path = "../../../Downloads/Human Head-52.png"; sourceTree = "<group>"; };
+		2540F0ED1C8F561200F3582A /* Briefcase-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Briefcase-48.png"; path = "../../../Downloads/Briefcase-48.png"; sourceTree = "<group>"; };
+		2540F0EE1C8F561200F3582A /* Cup Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cup Filled-50.png"; path = "../../../Downloads/Cup Filled-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +181,7 @@
 		2540F0691C8DF78100F3582A /* GKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				2540F0E71C8F551800F3582A /* TabImages */,
 				2540F0901C8E069600F3582A /* Images */,
 				2540F06A1C8DF78100F3582A /* KeyboardViewController.swift */,
 				2540F0761C8DFA2A00F3582A /* OneVC.swift */,
@@ -216,6 +227,18 @@
 				2540F0CF1C8EF9D000F3582A /* taco-food.gif */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		2540F0E71C8F551800F3582A /* TabImages */ = {
+			isa = PBXGroup;
+			children = (
+				2540F0EC1C8F561200F3582A /* Human Head-52.png */,
+				2540F0ED1C8F561200F3582A /* Briefcase-48.png */,
+				2540F0EE1C8F561200F3582A /* Cup Filled-50.png */,
+				2540F0E81C8F554F00F3582A /* Hearts-50.png */,
+				2540F0E91C8F554F00F3582A /* Globe-48.png */,
+			);
+			name = TabImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,9 +343,12 @@
 				2540F08F1C8E056500F3582A /* FourVC.xib in Resources */,
 				2540F0D51C8EF9D000F3582A /* cortado-food.gif in Resources */,
 				2540F0D61C8EF9D000F3582A /* flipflops-utility.gif in Resources */,
+				2540F0EB1C8F554F00F3582A /* Globe-48.png in Resources */,
+				2540F0EA1C8F554F00F3582A /* Hearts-50.png in Resources */,
 				2540F0E21C8EF9D000F3582A /* solocup-utility.gif in Resources */,
 				2540F0DA1C8EF9D000F3582A /* gunvald-animals.gif in Resources */,
 				2540F0D21C8EF9D000F3582A /* butterfly-animals.gif in Resources */,
+				2540F0F11C8F561200F3582A /* Cup Filled-50.png in Resources */,
 				2540F0E01C8EF9D000F3582A /* popcorn-food.gif in Resources */,
 				2540F0D81C8EF9D000F3582A /* froyo-food.gif in Resources */,
 				2540F0D11C8EF9D000F3582A /* booty-people.gif in Resources */,
@@ -336,7 +362,9 @@
 				2540F08B1C8E04F900F3582A /* SixVC.xib in Resources */,
 				2540F0DB1C8EF9D000F3582A /* icedcoffee-food.gif in Resources */,
 				2540F0D71C8EF9D000F3582A /* frenchpress-food.gif in Resources */,
+				2540F0EF1C8F561200F3582A /* Human Head-52.png in Resources */,
 				2540F0DD1C8EF9D000F3582A /* macaroons-food.gif in Resources */,
+				2540F0F01C8F561200F3582A /* Briefcase-48.png in Resources */,
 				2540F0831C8E04A000F3582A /* ThreeVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

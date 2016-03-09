@@ -10,33 +10,26 @@ import UIKit
 
 class OneVC: UIViewController {
 
+   
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: "tapped:")
-        self.view.addGestureRecognizer(tapGestureRecognizer)
-        
-        let longPressRecognizer = UILongPressGestureRecognizer(target: self, action: "longPressed:")
-        self.view.addGestureRecognizer(longPressRecognizer)
-        
+//        self.theNextKeyboardButton = UIButton(type: .System)
+//        
+//        self.theNextKeyboardButton.setTitle(NSLocalizedString("Next Keyboard", comment: "Title for 'Next Keyboard' button"), forState: .Normal)
+//        self.theNextKeyboardButton.sizeToFit()
+//        self.theNextKeyboardButton.translatesAutoresizingMaskIntoConstraints = false
+//        
+//        self.theNextKeyboardButton.addTarget(self, action: "advanceToNextInputMode", forControlEvents: .TouchUpInside)
+//        
+//       
+//        
         
     }
-    
-    func tapped(sender: UITapGestureRecognizer)
-    {
-        print("tapped")
-    }
-    
-    func longPressed(sender: UILongPressGestureRecognizer)
-    {
-        print("longpressed")
-    }
-    
-
-    
-   
     
     
 
