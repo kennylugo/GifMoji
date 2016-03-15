@@ -83,7 +83,7 @@
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Paste Size : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHU-Rs-Y37">
                     <rect key="frame" x="8" y="15" width="76" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwS-4B-zof">
@@ -97,52 +97,13 @@
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="l" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrQ-bC-pv2">
                     <rect key="frame" x="114" y="15" width="4" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3H1-sQ-Kk7">
                     <rect key="frame" x="258" y="11" width="109" height="30"/>
                     <state key="normal" title="Share Keyboard"/>
                 </button>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9kL-Mg-axB">
-                    <rect key="frame" x="0.0" y="173" width="375" height="47"/>
-                    <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9VB-0C-PHF">
-                            <rect key="frame" x="8" y="5" width="41" height="38"/>
-                            <state key="normal" image="Globe-48.png"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAS-LD-kPH">
-                            <rect key="frame" x="57" y="5" width="30" height="35"/>
-                            <state key="normal" image="Hearts-50.png"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4J-7W-1u2">
-                            <rect key="frame" x="95" y="3" width="38" height="36"/>
-                            <state key="normal" title="Button" image="Human Head-52.png"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dg8-rd-UCM">
-                            <rect key="frame" x="241" y="-2" width="34" height="38"/>
-                            <state key="normal" image="Cup Filled-50.png"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTZ-WC-qw9">
-                            <rect key="frame" x="325" y="-2" width="50" height="48.5"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                            <state key="normal" title="⌫"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dbk-78-Rnn">
-                            <rect key="frame" x="283" y="2" width="41" height="39"/>
-                            <state key="normal" image="Briefcase-48.png"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ic5-x3-u9s">
-                            <rect key="frame" x="192" y="0.0" width="41" height="39"/>
-                            <state key="normal" image="Briefcase-48.png"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Z2-fA-yII">
-                            <rect key="frame" x="150" y="-2" width="34" height="38"/>
-                            <state key="normal" image="Cup Filled-50.png"/>
-                        </button>
-                    </subviews>
-                    <color key="backgroundColor" red="0.22774885930780592" green="0.21358004869590236" blue="0.27861194667260847" alpha="1" colorSpace="calibratedRGB"/>
-                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -150,11 +111,6 @@
         </view>
     </objects>
     <resources>
-        <image name="Briefcase-48.png" width="48" height="48"/>
-        <image name="Cup Filled-50.png" width="50" height="50"/>
-        <image name="Globe-48.png" width="48" height="48"/>
-        <image name="Hearts-50.png" width="50" height="50"/>
-        <image name="Human Head-52.png" width="52" height="52"/>
         <image name="bacon-food.gif" width="80" height="80"/>
         <image name="booty-people.gif" width="80" height="80"/>
         <image name="butterfly-animals.gif" width="80" height="80"/>

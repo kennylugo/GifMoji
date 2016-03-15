@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textfield: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,12 +21,20 @@ class ViewController: UIViewController {
         let longPressRecognizer = UILongPressGestureRecognizer(target: self, action: "longPressed:")
         self.view.addGestureRecognizer(longPressRecognizer)
         
+        
+        textfield.becomeFirstResponder()
        
     }
     
     func tapped(sender: UITapGestureRecognizer)
     {
-        print("tapped")
+        let randomRed = CGFloat(drand48())
+        
+        
+          let randomGreen = CGFloat(drand48())
+        
+          let randomBlue = CGFloat(drand48())
+        self.view.backgroundColor = UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1)
     }
     
     func longPressed(sender: UILongPressGestureRecognizer)
